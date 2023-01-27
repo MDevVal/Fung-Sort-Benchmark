@@ -24,4 +24,4 @@ Selection sort is a simple sorting algorithm that repeatedly selects the smalles
 | Stable sort  | 31109  |
 | Unstable sort  | 44917  |
 | Fung sort  | 1125436  |
-| Select | 628020 |
+| Select sort | 628020 |
