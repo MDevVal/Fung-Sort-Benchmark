@@ -18,3 +18,10 @@ There is nothing good about this algorithm. It is slow – the algorithm obvious
 # Select Sort
 Selection sort is a simple sorting algorithm that repeatedly selects the smallest (or largest, depending on the sorting order) element from the unsorted portion of the list and moves it to the sorted portion of the list. The algorithm repeatedly finds the minimum element from the unsorted list and swaps it with the leftmost unsorted element, moving the boundary of the sorted list one element to the right.
 
+# Results
+| Algorithm     | Speed (Average Nano Seconds) |
+| ------------- | ------------- |
+| Stable sort  | 31109  |
+| Unstable sort  | 44917  |
+| Fung sort  | 1125436  |
+| Select | 628020 |
