@@ -4,11 +4,10 @@ use rand::{distributions::Standard, Rng};
 const ITERATIONS: usize = 10000;
 
 fn main() {
-
-    let mut stable_sort_speed: [u64; ITERATIONS as usize] = [0; ITERATIONS];
-    let mut unstable_sort_speed: [u64; ITERATIONS as usize] = [0; ITERATIONS];
-    let mut fung_sort_speed: [u64; ITERATIONS as usize] = [0; ITERATIONS];
-    let mut select_sort_speed: [u64; ITERATIONS as usize] = [0; ITERATIONS];
+    let mut stable_sort_speed: [u64; ITERATIONS] = [0; ITERATIONS];
+    let mut unstable_sort_speed: [u64; ITERATIONS] = [0; ITERATIONS];
+    let mut fung_sort_speed: [u64; ITERATIONS] = [0; ITERATIONS];
+    let mut select_sort_speed: [u64; ITERATIONS] = [0; ITERATIONS];
 
     for i in 0..ITERATIONS {
         let mut stable_vec: Vec<u64> = rand::thread_rng().sample_iter(Standard).take(100).collect();
