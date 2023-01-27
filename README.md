@@ -21,7 +21,7 @@ Selection sort is a simple sorting algorithm that repeatedly selects the smalles
 # Results
 | Algorithm     | Speed (Average Nano Seconds) |
 | ------------- | ------------- |
-| Stable sort  | 31109  |
-| Unstable sort  | 44917  |
-| Fung sort  | 1125436  |
-| Select sort | 628020 |
+| Stable sort  | <p align="center">31109</p>  |
+| Unstable sort  | <p align="center">44917</p>  |
+| Fung sort  | <p align="center">1125436</p>  |
+| Select sort | <p align="center">628020</p> |
